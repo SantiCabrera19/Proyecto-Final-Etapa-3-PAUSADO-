@@ -1,21 +1,21 @@
-import './App.css';
+import Buscador from "./components/BuscarPage";
+import Header from "./components/Header";
+import Pagination from "./components/Pagination";
+import FormSearch from "./components/Searcher";
+import NewsBox from "./components/News";
 
 function App() {
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app container">
+      <div className="jumbotron">
+        <p className="lead text-center"></p>
+        <Header/>
+        <FormSearch/>
+        /* <NewsBox/> */
+        <Pagination/>
+      </div>
     </div>
   );
 }

@@ -1,0 +1,17 @@
+#header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    box-sizing: border-box;
+    z-index: 100;
+    background-color: #d70000;
+    padding: 0 10px 0 20px;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.35);
+    
+}
+
+#titulo{
+    justify-content: center;
+}

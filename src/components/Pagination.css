@@ -1,0 +1,82 @@
+.pagination-container {
+    margin-bottom: 12%;
+}
+
+.pagination-ELEMENTS {
+    display: flex;
+    justify-content: center;
+}
+
+
+.pagination {
+    align-content: center;
+    background-color: #fff;
+    margin: 25px 10px 0 10px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    border: 0;
+    box-shadow: 2px 2px 6px rgb(0,0,0,0.4);
+
+    cursor: pointer;
+    user-select: none;
+
+    transition: all 0.15s;
+}
+
+.btn-pagination:hover {
+    background-color: rgb(0,0,0,0.1);
+    box-shadow: 2px 2px 8px rgb(0,0,0,0.6);
+}
+
+
+#number-Page {
+    padding: 5px 15px;
+    font-size: 1.3em;
+    user-select: none;
+
+    cursor: auto;
+}
+
+
+@media screen and (max-width: 2000px) {
+
+    .pagination-container {
+        margin-bottom: 10%;
+    }
+    
+}
+
+@media screen and (max-width: 1400px) {
+
+    .pagination-container {
+        margin-bottom: 15%;
+    }
+    
+}
+
+
+@media screen and (max-width: 1100px) {
+
+    .pagination-container {
+        margin-bottom: 15%;
+    }
+    
+}
+
+
+@media screen and ( max-width: 800px) {
+
+    .pagination-container {
+        margin-bottom: 22%;
+    }
+
+}
+
+
+@media screen and (max-width: 500px) {
+
+    .pagination-container {
+        margin-bottom: 35%;
+    }
+    
+}
