@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# 🌟 ¡Bienvenidos a mi proyecto! 🌟
+## 📝 Introducción
+¡Hola a todos! Mi nombre es Santiago Cabrera y quiero presentarles mi proyecto construido con el framework ReactJS. Este sitio web utiliza JavaScript para la lógica y utiliza una API llamada NewsApi para mostrar noticias actuales.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 💡 ¿Qué es lo que hace este proyecto?
 
-## Available Scripts
+Este proyecto es un sitio web que muestra las últimas noticias de diferentes categorías, como tecnología, deportes, entretenimiento, etc. Utiliza la API de NewsApi para obtener las noticias más recientes y mostrarlas en la pantalla principal del sitio.
 
-In the project directory, you can run:
+Los usuarios pueden navegar por diferentes categorías de noticias, ver las noticias más populares y buscar noticias específicas utilizando la barra de búsqueda. Además, pueden hacer clic en cualquier noticia para ver más detalles y leer la historia completa.
 
-### `npm start`
+# 🚀 ¿Cómo puedo probar este proyecto?
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Para probar este proyecto, primero debes clonar el repositorio en tu computadora local. A continuación, instala las dependencias ejecutando npm install. Una vez que se instalen las dependencias, ejecuta npm start para iniciar la aplicación.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# 📁 Estructura del proyecto
 
-### `npm test`
+El proyecto está organizado en diferentes carpetas que cumplen diferentes funciones. Aquí hay un resumen de la estructura de carpetas:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**public/:** contiene archivos estáticos que se servirán en el navegador.
 
-### `npm run build`
+**src/:** contiene el código fuente del proyecto.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**components/:** contiene componentes reutilizables de React.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**pages/:** contiene componentes que representan páginas completas del sitio.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**services/:** contiene el código que se encarga de realizar peticiones a la API.
 
-### `npm run eject`
+**utils/:** contiene funciones de ayuda y constantes utilizadas en el proyecto.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**App.js:** el componente raíz de la aplicación.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**index.js:** el archivo principal que inicia la aplicación.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# 🤝 Contribuciones
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+¡Este proyecto es de código abierto y estoy abierto a recibir contribuciones! Si quieres colaborar, por favor abre un PR. Estaré encantado de revisarlo.
 
-## Learn More
+# 📞 ¿Dónde puedo contactarte?
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Si quieres contactarme, por favor envíame un correo electrónico **cabrerasanty321@gmail.com**. Estoy siempre dispuesto a recibir comentarios y sugerencias sobre mi proyecto.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# 💖¡Gracias por visitar mi perfil github!
